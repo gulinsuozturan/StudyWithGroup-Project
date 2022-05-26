@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BouncyCastle.NetCore" Version="1.8.10" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.12.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StudyWithGroup.Core\StudyWithGroup.Core.csproj" />
+    <ProjectReference Include="..\StudyWithGroup.Infrastructure\StudyWithGroup.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

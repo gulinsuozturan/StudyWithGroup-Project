@@ -1,0 +1,213 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Gulinsu\\Desktop\\StudyWithGroupDotNet\\StudyWithGroup.Business\\StudyWithGroup.Business.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Gulinsu\\Desktop\\StudyWithGroupDotNet\\StudyWithGroup.Business\\StudyWithGroup.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gulinsu\\Desktop\\StudyWithGroupDotNet\\StudyWithGroup.Business\\StudyWithGroup.Business.csproj",
+        "projectName": "StudyWithGroup.Business",
+        "projectPath": "C:\\Users\\Gulinsu\\Desktop\\StudyWithGroupDotNet\\StudyWithGroup.Business\\StudyWithGroup.Business.csproj",
+        "packagesPath": "C:\\Users\\Gulinsu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gulinsu\\Desktop\\StudyWithGroupDotNet\\StudyWithGroup.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gulinsu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Gulinsu\\Desktop\\StudyWithGroupDotNet\\StudyWithGroup.Core\\StudyWithGroup.Core.csproj": {
+                "projectPath": "C:\\Users\\Gulinsu\\Desktop\\StudyWithGroupDotNet\\StudyWithGroup.Core\\StudyWithGroup.Core.csproj"
+              },
+              "C:\\Users\\Gulinsu\\Desktop\\StudyWithGroupDotNet\\StudyWithGroup.Infrastructure\\StudyWithGroup.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Gulinsu\\Desktop\\StudyWithGroupDotNet\\StudyWithGroup.Infrastructure\\StudyWithGroup.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "BouncyCastle.NetCore": {
+              "target": "Package",
+              "version": "[1.8.10, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.12.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gulinsu\\Desktop\\StudyWithGroupDotNet\\StudyWithGroup.Core\\StudyWithGroup.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gulinsu\\Desktop\\StudyWithGroupDotNet\\StudyWithGroup.Core\\StudyWithGroup.Core.csproj",
+        "projectName": "StudyWithGroup.Core",
+        "projectPath": "C:\\Users\\Gulinsu\\Desktop\\StudyWithGroupDotNet\\StudyWithGroup.Core\\StudyWithGroup.Core.csproj",
+        "packagesPath": "C:\\Users\\Gulinsu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gulinsu\\Desktop\\StudyWithGroupDotNet\\StudyWithGroup.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gulinsu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gulinsu\\Desktop\\StudyWithGroupDotNet\\StudyWithGroup.Infrastructure\\StudyWithGroup.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gulinsu\\Desktop\\StudyWithGroupDotNet\\StudyWithGroup.Infrastructure\\StudyWithGroup.Infrastructure.csproj",
+        "projectName": "StudyWithGroup.Infrastructure",
+        "projectPath": "C:\\Users\\Gulinsu\\Desktop\\StudyWithGroupDotNet\\StudyWithGroup.Infrastructure\\StudyWithGroup.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Gulinsu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gulinsu\\Desktop\\StudyWithGroupDotNet\\StudyWithGroup.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gulinsu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Gulinsu\\Desktop\\StudyWithGroupDotNet\\StudyWithGroup.Core\\StudyWithGroup.Core.csproj": {
+                "projectPath": "C:\\Users\\Gulinsu\\Desktop\\StudyWithGroupDotNet\\StudyWithGroup.Core\\StudyWithGroup.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
